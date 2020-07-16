@@ -1,18 +1,18 @@
 {% set name = "sos-pbs" %}
-{% set version = "0.20.3" %}
+{% set version = "0.20.5" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 12b950fae00ffb4e77511cf6372e6b90e9d93782d1844739aed0452760f4f247
+  sha256: e0e001602ab505d1af7a3f8425195b94ed056c7dc61abb26ef1bebdf5d91bdd2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv '
 
 requirements:
   host:

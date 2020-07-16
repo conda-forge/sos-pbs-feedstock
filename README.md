@@ -5,7 +5,7 @@ Home: https://github.com/vatlab/SOS
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: PBS task engine for Script of Scripts (SoS)
 
