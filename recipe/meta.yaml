@@ -29,8 +29,7 @@ test:
 
 about:
   home: https://github.com/vatlab/SOS
-  license: BSD
-  license_family: BSD
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: PBS task engine for Script of Scripts (SoS)
   doc_url: https://vatlab.github.io/sos-docs/
