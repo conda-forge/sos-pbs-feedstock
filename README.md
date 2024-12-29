@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sos-pbs-feedsto
 
 Home: https://github.com/vatlab/SOS
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Summary: PBS task engine for Script of Scripts (SoS)
 
